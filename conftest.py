@@ -14,7 +14,6 @@ def setup(request):
                           'Connection': 'keep-alive'
                           }
     request.cls.log = logging.getLogger()
-
     request.cls.clientUtil = Client(base_url=request.cls.BASE_URL, header=request.cls.header, log=request.cls.log)
     yield
     logging.info('Teardown steps can be written here')

@@ -13,8 +13,8 @@ class RequestsUtils:
         Issues on HTTP request
 
         Args:
-            :param host(str): host part of url e.g. http://127.0.0.12
-            :param path(str): path part of url e.g. api/v2/update
+            :param host(str): host part of url
+            :param path(str): path part of url
             :param method(str, optional): defaults to "GET". GET,POST,PUT,PATCH,DELETE method
 
         Keyword Args:
@@ -56,8 +56,8 @@ class RequestsUtils:
         """
         Sends an HTTP GET request and returns response
 
-        :param host(str): host part of url e.g. http://127.0.0.12
-        :param path(str): path part of url e.g. api/v2/update
+        :param host(str): host part of url
+        :param path(str): path part of url
         :return: object: Response object
         """
         return RequestsUtils.process_request(host, path, method="GET", **kwargs)
@@ -89,11 +89,7 @@ class RequestsUtils:
                         f"\n Status Code : {str(resp_obj.status_code)} " +\
                         f"\n Response Text : {str(resp_obj.text)} " +\
                         "*************************************************************"
-        #
-        # if resp_obj.status_code < 299:
-        #     logging.debug(logging_str)
-        # else:
-        #     logging.info(logging_str)
-        #     if fail_on_error is True:
-        #         raise Exception(f"\n API call failed. Need Investigation")
+
+        logging.info(logging_str)
+
         return resp_obj

@@ -1,0 +1,3 @@
+[32mINFO    [0m root:test_001.py:12 {'dateofbirth': '2005-01-30', 'unit': 'hour', 'expected_output': '6000 hours left'}
+[32mINFO    [0m root:request_util.py:42 Sending GET request for https://lx8ssktxx9.execute-api.eu-west-1.amazonaws.com/Prod/next-birthday, Max retires pending: 10
+[32mINFO    [0m root:request_util.py:51 HTTP response code: 200

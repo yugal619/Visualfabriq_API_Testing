@@ -1,0 +1,73 @@
+{
+  "happy_path": [
+            {
+            "dateofbirth": "2010-02-28",
+            "unit": "day",
+            "expected_output": "279 days left"
+            },
+            {
+            "dateofbirth": "2005-01-30",
+            "unit": "hour",
+            "expected_output": "6000 hours left"
+            },
+            {
+            "dateofbirth": "2020-04-08",
+            "unit": "week",
+            "expected_output": "45 weeks left"
+            },
+            {
+            "dateofbirth": "2005-01-13",
+            "unit": "month",
+            "expected_output": "7 months left"
+            }
+        ],
+  "edge_case_data": [
+            {
+            "dateofbirth": "1900-02-26",
+            "unit": "day",
+            "expected_output": "277 days left"
+            },
+            {
+            "dateofbirth": "2100-02-26",
+            "unit": "day",
+            "expected_output": "277 days left"
+            },
+            {
+            "dateofbirth": "2000-02-29",
+            "unit": "day"
+            },
+            {
+            "dateofbirth": "2000-02-29",
+            "unit": "week"
+            },
+            {
+            "dateofbirth": "2000-02-29",
+            "unit": "month"
+            },
+            {
+            "dateofbirth": "2000-02-29",
+            "unit": "hour"
+            }
+  ],
+  "invalid_data": [
+            {
+            "dateofbirth": "0020-02-26",
+            "unit": "day"
+            },
+            {
+            "dateofbirth": "1900-02-26",
+            "unit": "days"
+            },
+            {
+            "dateofbirth": "2020-02-26",
+            "unit": "days"
+            },
+            {
+            "dateofbirth": "1900-002-26"
+            },
+            {
+            "unit": "days"
+            }
+  ]
+
+}

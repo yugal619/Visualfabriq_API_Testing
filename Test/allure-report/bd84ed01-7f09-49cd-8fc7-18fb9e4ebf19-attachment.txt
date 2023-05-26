@@ -1,0 +1,9 @@
+[32mINFO    [0m root:request_util.py:42 Sending GET request for https://lx8ssktxx9.execute-api.eu-west-1.amazonaws.com/Prod/next-birthday, Max retires pending: 10
+[32mINFO    [0m root:request_util.py:51 HTTP response code: 200
+[32mINFO    [0m root:request_util.py:93 
+ ************************************************************* 
+Method: GETHost: https://lx8ssktxx9.execute-api.eu-west-1.amazonaws.comPath: /Prod/next-birthday\ Headers : {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}\ Params : {'dateofbirth': '1900-02-26', 'unit': 'days'}
+ Response 
+ Headers: {'Content-Type': 'application/json', 'Content-Length': '17', 'Connection': 'keep-alive', 'Date': 'Thu, 25 May 2023 18:52:51 GMT', 'x-amzn-RequestId': 'f5bcb8f1-9864-4e5e-a922-715346608bb3', 'x-amz-apigw-id': 'Ffg0lF8fjoEFdnA=', 'X-Amzn-Trace-Id': 'Root=1-646fae83-602e297c030d91c82597741a;Sampled=0;lineage=f2623d03:0', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 cb2869f75964451c7fbd9d4432e1f3fa.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'HYD50-C2', 'X-Amz-Cf-Id': 'vzHuECWhVr-XnMC2h3J297hwhNP-mi6IgLTTy63YyQpUsv1MWhwCsQ=='}
+ Status Code : 200 
+ Response Text : {"message": null} *************************************************************

@@ -30,4 +30,4 @@ class Client():
                                       fail_on_error=fail_on_error)
         assert response.status_code > 299, f'[FAILURE] Actual Status code - {response.status_code} \n' \
                                            f'Expected status code ">299" as input is invalid \n' \
-                                           f'Input - {input["params"]}'
+                                           f'Input - {input}'

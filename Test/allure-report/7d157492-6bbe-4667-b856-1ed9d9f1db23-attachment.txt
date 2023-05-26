@@ -1,0 +1,9 @@
+[32mINFO    [0m root:request_util.py:42 Sending GET request for https://lx8ssktxx9.execute-api.eu-west-1.amazonaws.com/Prod/next-birthday, Max retires pending: 10
+[32mINFO    [0m root:request_util.py:51 HTTP response code: 502
+[32mINFO    [0m root:request_util.py:93 
+ ************************************************************* 
+Method: GETHost: https://lx8ssktxx9.execute-api.eu-west-1.amazonaws.comPath: /Prod/next-birthday\ Headers : {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}\ Params : {'dateofbirth': '2000-02-29', 'unit': 'week'}
+ Response 
+ Headers: {'Content-Type': 'application/json', 'Content-Length': '36', 'Connection': 'keep-alive', 'Date': 'Thu, 25 May 2023 18:54:53 GMT', 'x-amzn-RequestId': 'f9ac9efc-ba0c-48e1-86ec-119419fece90', 'x-amzn-ErrorType': 'InternalServerErrorException', 'x-amz-apigw-id': 'FfhHqGPBDoEFsag=', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 e37f5a1ae470dcb726258db2701f5a4e.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'HYD50-C2', 'X-Amz-Cf-Id': '8EzTZFkn6pKLdSRpOHcpSMBo0CClo67lU_Gnx17hisfRatz71DbD-Q=='}
+ Status Code : 502 
+ Response Text : {"message": "Internal server error"} *************************************************************

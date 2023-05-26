@@ -1,0 +1,11 @@
+[32mINFO    [0m root:conftest.py:9 Initializing objects
+[32mINFO    [0m root:client.py:11 Client Util is initialized
+[32mINFO    [0m root:request_util.py:42 Sending GET request for https://lx8ssktxx9.execute-api.eu-west-1.amazonaws.com/Prod/next-birthday, Max retires pending: 10
+[32mINFO    [0m root:request_util.py:51 HTTP response code: 200
+[32mINFO    [0m root:request_util.py:93 
+ ************************************************************* 
+Method: GETHost: https://lx8ssktxx9.execute-api.eu-west-1.amazonaws.comPath: /Prod/next-birthday\ Headers : {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}\ Params : {'dateofbirth': '2010-02-28', 'unit': 'day'}
+ Response 
+ Headers: {'Content-Type': 'application/json', 'Content-Length': '28', 'Connection': 'keep-alive', 'Date': 'Fri, 26 May 2023 02:43:57 GMT', 'x-amzn-RequestId': '06d04ad9-4a90-4dae-a8c5-d8cecc849f46', 'x-amz-apigw-id': 'Fgl1IEvGDoEFofw=', 'X-Amzn-Trace-Id': 'Root=1-64701ced-7dec059e4bba0252166e813b;Sampled=0;lineage=f2623d03:0', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 4e0bf01624c84da6b83ccac11832f206.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'HYD50-C2', 'X-Amz-Cf-Id': '5mqKNNFEPmzJdonFfvfkZNqdL2Ds9PtWQ7-0eqZO_WGPtQ1DTabp2g=='}
+ Status Code : 200 
+ Response Text : {"message": "278 days left"} *************************************************************

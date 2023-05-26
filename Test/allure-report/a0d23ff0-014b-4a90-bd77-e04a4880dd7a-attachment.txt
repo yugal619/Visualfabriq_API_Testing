@@ -1,0 +1,10 @@
+[32mINFO    [0m root:request_util.py:42 Sending GET request for https://lx8ssktxx9.execute-api.eu-west-1.amazonaws.com/Prod/next-birthday, Max retires pending: 10
+[32mINFO    [0m root:request_util.py:51 HTTP response code: 400
+[32mINFO    [0m root:request_util.py:93 
+ ************************************************************* 
+Method: GETHost: https://lx8ssktxx9.execute-api.eu-west-1.amazonaws.comPath: /Prod/next-birthday\ Headers : {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}\ Params : {'unit': 'days'}
+ Response 
+ Headers: {'Content-Type': 'application/json', 'Content-Length': '71', 'Connection': 'keep-alive', 'Date': 'Thu, 25 May 2023 18:52:55 GMT', 'x-amzn-RequestId': 'e7a6d5fb-980d-488f-98dc-30b47fab872f', 'x-amz-apigw-id': 'Ffg1RGiQDoEFa1g=', 'X-Amzn-Trace-Id': 'Root=1-646fae87-3011f90f1e588a4f092c80e2;Sampled=0;lineage=f2623d03:0', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 8ce6c1082025b646a9044f0ebd185722.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'HYD50-C2', 'X-Amz-Cf-Id': 'EKEOYwY71YwCsP8C3TAtomjc3c5TeNzvbUi873BNI61JNCgD6JvZ3g=='}
+ Status Code : 400 
+ Response Text : {"message": "Please specify both query parameter dateofbirth and unit"} *************************************************************
+[32mINFO    [0m root:conftest.py:19 Teardown steps can be written here

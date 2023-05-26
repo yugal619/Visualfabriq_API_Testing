@@ -1,0 +1,9 @@
+[32mINFO    [0m root:request_util.py:42 Sending GET request for https://lx8ssktxx9.execute-api.eu-west-1.amazonaws.com/Prod/next-birthday, Max retires pending: 10
+[32mINFO    [0m root:request_util.py:51 HTTP response code: 200
+[32mINFO    [0m root:request_util.py:93 
+ ************************************************************* 
+Method: GETHost: https://lx8ssktxx9.execute-api.eu-west-1.amazonaws.comPath: /Prod/next-birthday\ Headers : {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}\ Params : {'dateofbirth': '1900-02-26', 'unit': 'day'}
+ Response 
+ Headers: {'Content-Type': 'application/json', 'Content-Length': '28', 'Connection': 'keep-alive', 'Date': 'Thu, 25 May 2023 18:54:48 GMT', 'x-amzn-RequestId': '8e9ddf16-c6bc-476e-80a7-e22109bfa1ec', 'x-amz-apigw-id': 'FfhG6EbBjoEFh-w=', 'X-Amzn-Trace-Id': 'Root=1-646faef8-0a3d934c0ba249ba0d99dff2;Sampled=0;lineage=f2623d03:0', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 6e8cb5d9d2205525b155a8ed429b045e.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'HYD50-C2', 'X-Amz-Cf-Id': 'gTu02rQgWw5ZqXZNT_8XZIpJrv7wMGS4WHsghNoFAkGF2ivfnDJsrw=='}
+ Status Code : 200 
+ Response Text : {"message": "277 days left"} *************************************************************
